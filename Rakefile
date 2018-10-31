@@ -271,7 +271,7 @@ agents = [
         distro: 'fedora',
         version: '29',
         release_name:'29',
-        eol_date: '2019-11-31',
+        eol_date: '2019-11-30',
         add_files: tini_and_gosu_add_file_meta,
         create_user_and_group: create_user_and_group_cmd,
         before_install: [

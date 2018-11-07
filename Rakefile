@@ -276,7 +276,7 @@ agents = [
         create_user_and_group: create_user_and_group_cmd,
         before_install: [
             'yum update -y',
-            'yum install -y java-1.8.0-openjdk-headless git mercurial subversion openssh-clients bash unzip curl',
+            'yum install -y java-11-openjdk-headless git mercurial subversion openssh-clients bash unzip curl',
             'yum clean all'
         ]
     }
